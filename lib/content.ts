@@ -53,7 +53,7 @@ export const highlights = [
   {
     title: "Ontspannen",
     description:
-      "Rustige koffie- en theemomenten, gezellige samenkomsten en ruimte voor aandacht voor elkaar.",
+      "Gezellige koffie- en theemomenten, fijne samenkomsten en ruimte voor aandacht voor elkaar.",
     icon: Coffee
   },
   {
@@ -134,7 +134,7 @@ export const newsItems = [
     title: "Kom kennismaken",
     date: "Doorlopend",
     description:
-      "Geïnteresseerden kunnen contact opnemen met het secretariaat om rustig kennis te maken met de vereniging.",
+      "Geïnteresseerden kunnen contact opnemen met het secretariaat om vrijblijvend kennis te maken met de vereniging.",
     icon: Megaphone
   }
 ];
@@ -197,7 +197,7 @@ export const values = [
   {
     title: "Toegankelijk",
     description:
-      "Geïnteresseerden zijn welkom om op een rustige manier kennis te maken.",
+      "Geïnteresseerden zijn welkom om vrijblijvend kennis te maken.",
     icon: HeartHandshake
   },
   {

@@ -89,7 +89,7 @@ export default function Home() {
         <div className="mx-auto max-w-4xl px-6 text-center sm:px-8">
           <SectionTitle
             eyebrow="Kom kennismaken"
-            title="U bent welkom om rustig kennis te maken"
+            title="U bent welkom om kennis te maken"
             description="Wilt u weten of Vrouwengilde Goes bij u past? Neem gerust contact op. We vertellen graag meer over de vereniging en de mogelijkheden om eens aan te sluiten."
             align="center"
           />

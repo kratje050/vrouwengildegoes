@@ -14,7 +14,7 @@ export default function LidWordenPage() {
           <SectionTitle
             eyebrow="Lid worden"
             title="Maak kennis met Vrouwengilde Goes"
-            description="Bent u benieuwd naar de vereniging? Geïnteresseerden zijn welkom om contact op te nemen en rustig te ontdekken of Vrouwengilde Goes bij hen past."
+            description="Bent u benieuwd naar de vereniging? Geïnteresseerden zijn welkom om contact op te nemen en vrijblijvend te ontdekken of Vrouwengilde Goes bij hen past."
           />
         </div>
       </section>
