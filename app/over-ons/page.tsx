@@ -31,7 +31,7 @@ export default function OverOnsPage() {
             <p className="mt-5">
               Net als op de oude website blijft het idee van ontmoeting,
               ontspanning en vorming centraal staan. De praktische gegevens,
-              contributie en contactpersonen worden hier pas ingevuld wanneer
+              contributie en bestuursnamen worden hier pas ingevuld wanneer
               deze actueel zijn bevestigd.
             </p>
           </div>

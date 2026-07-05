@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Mail, MapPin, Phone, UserRound } from "lucide-react";
+import { Building2, Mail, MapPin, Phone, UserRound } from "lucide-react";
 import { ContactForm } from "@/components/ContactForm";
 import { SectionTitle } from "@/components/SectionTitle";
 import { site } from "@/lib/content";
@@ -12,6 +12,8 @@ export default function ContactPage() {
   const contactItems = [
     { label: "E-mail", value: site.contact.email, icon: Mail },
     { label: "Telefoon", value: site.contact.phone, icon: Phone },
+    { label: "Secretariaat", value: site.contact.address, icon: Building2 },
+    { label: "Postcode en plaats", value: site.contact.postalCity, icon: MapPin },
     { label: "Locatie", value: site.contact.location, icon: MapPin },
     { label: "Contactpersoon", value: site.contact.person, icon: UserRound }
   ];

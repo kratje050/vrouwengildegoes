@@ -3,7 +3,7 @@ import { Button } from "@/components/Button";
 import { Hero } from "@/components/Hero";
 import { InfoCard } from "@/components/InfoCard";
 import { SectionTitle } from "@/components/SectionTitle";
-import { activities, highlights, values } from "@/lib/content";
+import { activities, highlights, newsItems, values } from "@/lib/content";
 
 export default function Home() {
   return (
@@ -55,6 +55,31 @@ export default function Home() {
           <div className="mt-10 grid gap-6 md:grid-cols-3">
             {activities.slice(0, 3).map((activity) => (
               <ActivityCard key={activity.title} {...activity} />
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="bg-cream py-18">
+        <div className="mx-auto max-w-7xl px-6 sm:px-8">
+          <div className="flex flex-col justify-between gap-6 md:flex-row md:items-end">
+            <SectionTitle
+              eyebrow="Nieuws"
+              title="Laatste berichten"
+              description="Hier delen we korte updates over de vereniging, het programma en praktische informatie."
+            />
+            <Button href="/nieuws" variant="secondary">
+              Naar nieuws
+            </Button>
+          </div>
+          <div className="mt-10 grid gap-6 md:grid-cols-3">
+            {newsItems.map((item) => (
+              <InfoCard
+                description={`${item.date} - ${item.description}`}
+                icon={item.icon}
+                key={item.title}
+                title={item.title}
+              />
             ))}
           </div>
         </div>

@@ -6,9 +6,13 @@ import {
   HandHeart,
   HeartHandshake,
   Lightbulb,
+  Megaphone,
   MapPin,
+  Newspaper,
   Palette,
+  ShieldCheck,
   Sparkles,
+  UserRound,
   UsersRound
 } from "lucide-react";
 
@@ -17,17 +21,22 @@ export const site = {
   description:
     "Vrouwenvereniging in Goes voor ontmoeting, activiteiten, creativiteit en gezelligheid.",
   contact: {
-    email: "[e-mailadres invullen]",
-    phone: "[telefoonnummer invullen]",
+    email: "vrouwengilde@zeelandnet.nl",
+    phone: "06 49 400 700",
+    secretariat: "Secretariaat",
+    address: "Sluisplaat 12",
+    postalCity: "4465BA Goes",
     location: "Goes",
-    person: "[naam invullen]"
+    person: "Secretariaat"
   }
 };
 
 export const navigation = [
   { label: "Home", href: "/" },
   { label: "Over ons", href: "/over-ons" },
+  { label: "Bestuur", href: "/bestuur" },
   { label: "Activiteiten", href: "/activiteiten" },
+  { label: "Nieuws", href: "/nieuws" },
   { label: "Foto's", href: "/fotos" },
   { label: "Lid worden", href: "/lid-worden" },
   { label: "Goed doel", href: "/goed-doel" },
@@ -103,6 +112,61 @@ export const activities = [
       "Een warme bijeenkomst aan het einde van het jaar, met aandacht voor samenzijn en sfeer.",
     category: "Jaarmoment",
     icon: Gift
+  }
+];
+
+export const newsItems = [
+  {
+    title: "Nieuwe website in voorbereiding",
+    date: "5 juli 2026",
+    description:
+      "Vrouwengilde Goes werkt aan een moderne website waarop activiteiten, nieuws en praktische informatie overzichtelijk bij elkaar staan.",
+    icon: Newspaper
+  },
+  {
+    title: "Programma wordt aangevuld",
+    date: "Datum volgt",
+    description:
+      "De activiteitenpagina wordt later aangevuld met actuele datums, locaties en extra informatie over bijeenkomsten.",
+    icon: CalendarDays
+  },
+  {
+    title: "Kom kennismaken",
+    date: "Doorlopend",
+    description:
+      "Geïnteresseerden kunnen contact opnemen met het secretariaat om rustig kennis te maken met de vereniging.",
+    icon: Megaphone
+  }
+];
+
+export const boardMembers = [
+  {
+    role: "Voorzitter",
+    name: "Naam volgt",
+    description:
+      "Leidt vergaderingen en bewaakt samen met het bestuur de koers van de vereniging.",
+    icon: UserRound
+  },
+  {
+    role: "Secretaris",
+    name: "Secretariaat",
+    description:
+      "Verzorgt correspondentie, ledeninformatie en het algemene contact met de vereniging.",
+    icon: ShieldCheck
+  },
+  {
+    role: "Penningmeester",
+    name: "Naam volgt",
+    description:
+      "Houdt overzicht op de financiën. Bankgegevens worden niet op de website gepubliceerd.",
+    icon: HandHeart
+  },
+  {
+    role: "Bestuurslid activiteiten",
+    name: "Naam volgt",
+    description:
+      "Denkt mee over bijeenkomsten, creatieve middagen, uitstapjes en jaarmomenten.",
+    icon: CalendarDays
   }
 ];
 

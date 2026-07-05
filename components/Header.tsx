@@ -20,12 +20,12 @@ export function Header() {
         >
           {site.name}
         </Link>
-        <nav aria-label="Hoofdnavigatie" className="hidden items-center gap-1 lg:flex">
+        <nav aria-label="Hoofdnavigatie" className="hidden items-center gap-1 xl:flex">
           {navigation.map((item) => {
             const active = pathname === item.href || pathname === `${item.href}/`;
             return (
               <Link
-                className={`focus-ring rounded-lg px-3 py-2 text-sm font-semibold transition ${
+                className={`focus-ring rounded-lg px-2.5 py-2 text-sm font-semibold transition ${
                   active
                     ? "bg-linen text-mulberry"
                     : "text-ink/75 hover:bg-white/80 hover:text-mulberry"
@@ -41,7 +41,7 @@ export function Header() {
         <button
           aria-expanded={open}
           aria-label={open ? "Menu sluiten" : "Menu openen"}
-          className="focus-ring inline-flex h-11 w-11 items-center justify-center rounded-lg border border-rose-deep/15 bg-white text-mulberry lg:hidden"
+          className="focus-ring inline-flex h-11 w-11 items-center justify-center rounded-lg border border-rose-deep/15 bg-white text-mulberry xl:hidden"
           onClick={() => setOpen((value) => !value)}
           type="button"
         >
@@ -51,7 +51,7 @@ export function Header() {
       {open ? (
         <nav
           aria-label="Mobiele navigatie"
-          className="border-t border-rose-deep/10 bg-cream px-6 py-4 lg:hidden"
+          className="border-t border-rose-deep/10 bg-cream px-6 py-4 xl:hidden"
         >
           <div className="mx-auto grid max-w-7xl gap-2">
             {navigation.map((item) => (

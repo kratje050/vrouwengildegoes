@@ -47,7 +47,9 @@ export function Footer() {
             </li>
             <li className="flex gap-3">
               <MapPin aria-hidden="true" className="mt-1 h-4 w-4 text-rose-deep" />
-              <span>{site.contact.location}</span>
+              <span>
+                {site.contact.address}, {site.contact.postalCity}
+              </span>
             </li>
           </ul>
         </div>

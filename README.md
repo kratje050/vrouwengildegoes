@@ -28,10 +28,8 @@ Netlify gebruikt:
 
 ## Nog in te vullen placeholders
 
-- E-mailadres
-- Telefoonnummer
-- Contactpersoon
 - Actuele contributie en voorwaarden
 - Naam van het goede doel
 - Actuele datums en locaties van activiteiten
+- Namen of rolverdeling van het bestuur
 - Echte foto's voor de fotopagina
