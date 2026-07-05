@@ -1,0 +1,10 @@
+<svg width="800" height="600" viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Placeholder uitstapjes</title>
+  <desc id="desc">Rustige illustratieve placeholder voor foto's van uitstapjes.</desc>
+  <rect width="800" height="600" fill="#FFF8EF"/>
+  <rect x="70" y="80" width="660" height="440" rx="8" fill="#DCE7DE"/>
+  <path d="M120 438C210 356 282 376 356 316C442 246 524 254 680 142V520H120V438Z" fill="#6D8A75" opacity="0.82"/>
+  <path d="M120 470C260 398 336 420 438 358C520 308 598 312 680 280V520H120V470Z" fill="#9F4F55" opacity="0.58"/>
+  <circle cx="604" cy="160" r="58" fill="#E9B9B1"/>
+  <rect x="168" y="118" width="230" height="20" rx="8" fill="#5C3143" opacity="0.5"/>
+</svg>

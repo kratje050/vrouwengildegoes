@@ -1,0 +1,11 @@
+<svg width="800" height="600" viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Placeholder activiteiten</title>
+  <desc id="desc">Rustige illustratieve placeholder voor activiteitenfoto's.</desc>
+  <rect width="800" height="600" fill="#FFF8EF"/>
+  <rect x="70" y="80" width="660" height="440" rx="8" fill="#F8EADC"/>
+  <circle cx="245" cy="245" r="78" fill="#E9B9B1"/>
+  <circle cx="365" cy="245" r="78" fill="#6D8A75" opacity="0.86"/>
+  <circle cx="485" cy="245" r="78" fill="#9F4F55" opacity="0.82"/>
+  <rect x="180" y="360" width="440" height="28" rx="8" fill="#5C3143" opacity="0.78"/>
+  <rect x="235" y="412" width="330" height="18" rx="8" fill="#2F2624" opacity="0.34"/>
+</svg>
