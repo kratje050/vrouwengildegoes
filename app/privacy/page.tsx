@@ -22,9 +22,8 @@ export default function PrivacyPage() {
         <div className="mx-auto max-w-3xl px-6 text-lg leading-8 text-ink/76 sm:px-8">
           <h2 className="text-2xl font-bold text-ink">Welke gegevens?</h2>
           <p className="mt-3">
-            Via het contactformulier kunnen naam, e-mailadres en bericht worden
-            ingevuld. Het formulier verzendt op dit moment nog niet echt; de
-            verzendfunctie wordt later gekoppeld.
+            Wanneer u zelf contact opneemt met Vrouwengilde Goes, kunnen de
+            gegevens die u deelt worden gebruikt om uw vraag te beantwoorden.
           </p>
 
           <h2 className="mt-8 text-2xl font-bold text-ink">Gebruik van gegevens</h2>

@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import { Building2, Mail, MapPin, Phone, UserRound } from "lucide-react";
-import { ContactForm } from "@/components/ContactForm";
 import { SectionTitle } from "@/components/SectionTitle";
 import { site } from "@/lib/content";
 
@@ -25,15 +24,15 @@ export default function ContactPage() {
           <SectionTitle
             eyebrow="Contact"
             title="Neem gerust contact op"
-            description="Heeft u een vraag of wilt u kennismaken? Gebruik het formulier of de contactgegevens hieronder. De verzendfunctie van het formulier wordt later gekoppeld."
+            description="Heeft u een vraag of wilt u kennismaken? Gebruik de contactgegevens hieronder om contact op te nemen met het secretariaat."
           />
         </div>
       </section>
       <section className="bg-white py-18">
-        <div className="mx-auto grid max-w-7xl gap-8 px-6 sm:px-8 lg:grid-cols-[0.85fr_1.15fr]">
-          <aside className="rounded-lg bg-cream p-6">
+        <div className="mx-auto max-w-5xl px-6 sm:px-8">
+          <aside className="rounded-lg bg-cream p-6 sm:p-8">
             <h2 className="text-2xl font-bold text-ink">Contactgegevens</h2>
-            <div className="mt-6 grid gap-4">
+            <div className="mt-6 grid gap-5 sm:grid-cols-2">
               {contactItems.map((item) => {
                 const Icon = item.icon;
                 return (
@@ -50,7 +49,6 @@ export default function ContactPage() {
               })}
             </div>
           </aside>
-          <ContactForm />
         </div>
       </section>
     </>
